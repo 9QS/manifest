@@ -16,7 +16,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="AOSPA/android_build_soong" remote="aospa" >
+  <project path="build/soong" name="9QS/android_build_soong" remote="aospa" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
